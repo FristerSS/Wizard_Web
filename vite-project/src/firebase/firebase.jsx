@@ -10,7 +10,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCVsdEHVoarnI2z3g50KUtctlZMCTz_NEg", //hide in ENV
+    apiKey: NEED_KEY_FROM_ENV, //hide in ENV
     authDomain: "wizardweb-95522.firebaseapp.com",
     databaseURL: "https://wizardweb-95522-default-rtdb.firebaseio.com",
     projectId: "wizardweb-95522",
